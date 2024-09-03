@@ -10,7 +10,7 @@ module.exports = {
       user: "root",
       host: "195.35.23.229",
       ref: "origin/master",
-      repo: "https://github.com/asarDigimarketz/astronicsss",
+      repo: "https://github.com/asarDigimarketz/astronicsss.git",
       path: "/home/adfilmz/htdocs/adfilmz.com/astronicsss", // Use the same path for deployment
       "post-deploy": "npm install && npm run build && pm2 reload ecosystem.config.js --env production"
     }
